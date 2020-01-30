@@ -1,0 +1,11 @@
+hour = float(input("Enter the present time = "))
+if hour < 12:
+    print("Good Morning")
+elif hour == 12:
+    print("Good Noon")
+elif hour < 16:
+    print("Good Afternoon")
+elif hour < 20:
+    print("Good Evening")
+else:
+    print("Good Night")
